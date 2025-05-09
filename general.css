@@ -1,0 +1,12 @@
+body {
+    padding-top: 35px;
+    margin: 0;
+    height: 1000px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+}

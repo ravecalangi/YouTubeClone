@@ -1,0 +1,12 @@
+.left-header {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-left: -6px;
+}
+
+.youtube-logo{
+    height: 20px;
+    margin-left: 5px;
+}

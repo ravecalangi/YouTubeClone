@@ -1,0 +1,88 @@
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+.youtube-app-icon {
+    height: 25px;
+}
+
+.notifications-icon {
+    height: 25px;
+    margin-right: 2px;
+    margin-left: 4px;
+}
+
+.my-channel-icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+.notifications-three-div {
+    position: relative;
+    
+}
+
+.notifications-count {
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    right: 1px;
+    top: 1px;
+    font-family: 'Roboto', sans-serif, Arial;
+    background-color: rgb(202, 2, 2);
+    color: white;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-icon {
+    height: 25px;
+    margin-left: 4px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.create-container .create-tooltip {
+    position: absolute;
+    bottom: -44px;
+    color: white;
+    background-color: rgba(19, 18, 18, 0.65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.create-container:hover .create-tooltip {
+    opacity: 1;
+}
+
+
